@@ -1,0 +1,60 @@
+header{
+    background: url(../img/house31.jpg) center no-repeat fixed;
+    height: 100vh; 
+}
+
+.newsletter{
+    background: url(../img/house4.jpg) center no-repeat fixed;
+}
+
+header, .newsletter{
+    background-size: cover;
+    position: relative;
+}
+
+header::before, .newsletter::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 0;
+}
+
+.card-header{
+    border-radius: 2px 0 0 0;
+}
+#navbar{
+    transition: 500ms;
+}
+
+.bg-gray{
+    background-color: #ddd;
+}
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index:99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#myBtn:hover{
+    background-color: #555;
+}
+@media screen  and (max-height: 400px) {
+    header{
+        height: 35em;
+    }
+}

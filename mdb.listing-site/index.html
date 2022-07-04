@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Listing Site</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/icons/favicon.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/custom.main.css" />
+  </head>
+  <body class="bg-body">
+    <!-- Start your project here-->
+    <header class="d-flex justify-content-center align-items-center text-light">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container-fluid">
+          <img src="img/icons/logo.png" alt="company logo" height="60" class="navbar-brand">
+          <a href="#" class="navbar-brand d-lg-none">Jemani Realty</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse d-lg-flex justify-content-between-align-items-center" id="navbarNav">
+            <a href="#" class="navbar-brand d-none d-lg-block">Jemani Realty</a>
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blog</a>
+              </li> 
+            </ul>
+          </div>
+          <button class="btn btn-outline-primary text-light border-0">Login</button>
+          <button class="btn btn-warning rounded-pill  text-light">Add listing</button>
+          <button class="btn shadow-0  text-light"><i class="fa fa-shopping-cart"></i></button>
+          <button class="btn shadow-0  text-light "><i class="fa fa-search"></i></button>
+        </div>
+      </nav>
+      <div class="container position-relative w-75">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6 px-4">
+            <h1 class="display-3">
+              Millions of Homes, Just a Click Away
+            </h1>
+          </div>
+          <div class="col-12 col-lg-6 px-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ratione rerum eveniet neque nam necessitatibus ipsa quos 
+              explicabo non beatae quis.
+            </p>
+            <button class="btn btn-primary btn-lg">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="py-3 my-3">
+        <div class="p-5 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            <button class="btn btn-primary btn-lg fw-bold" type="button">Find a Home</button>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container border-bottom pb-3"> 
+          <h1 class="display-6 text-center pb-2 px-4 mb-3 border-bottom">
+            Features
+          </h1>
+          <!-- CARD GROUP -->
+          <div class="card-group d-flex overflow-x-scroll py-3 align-items-center text-center">
+            
+            <!-- CARD 1-->
+            <div class="col-12  col-lg-3  my-3">
+              <div class="card position-relative m-1">
+                <h5 class="card-header badge rounded-end position-absolute" style="background-color: rgba(250, 163, 1, 0.788);">
+                  For Lease</h5>
+                <img src="img/houses/house2.jpg" height="250"  alt="" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    1 bedroom apartment
+                  </h5>
+                  <p class="card-text text-center">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                  </p>
+                  <div class="row pb-1 border-bottom">
+                    <div class="col text-start">
+                      <i class="fa fa-bed"></i><strong> 1 </strong>
+                    </div>
+                    <div class="col text-center">
+                      <i class="fa fa-toilet"></i> <strong> 2 </strong>
+                    </div>
+                    <div class="col text-end">
+                      <i class="fa fa-bath"></i> <strong> 1 </strong>
+                    </div>
+                  </div>
+                  
+                  <div class="text-center my-2">
+                    <h5 class="fw-bolder text-primary"> $ 100,000,0000 </h5>
+                  </div>
+                  <div class="container text-center">
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+             <!-- CARD 2-->
+             <div class="col-12  col-lg-3  my-3">
+              <div class="card position-relative m-1">
+                <h5 class="card-header badge rounded-end position-absolute" style="background-color: rgba(250, 163, 1, 0.788);">For Rent</h5>
+                <img src="img/houses/house12.jpg" height="250" alt="" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    3 bedroom apartment
+                  </h5>
+                  <p class="card-text text-center">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                  </p>
+                  <div class="row pb-1 border-bottom">
+                    <div class="col text-start">
+                      <i class="fa fa-bed"></i><strong> 3 </strong>
+                    </div>
+                    <div class="col text-center">
+                      <i class="fa fa-toilet"></i> <strong> 4 </strong>
+                    </div>
+                    <div class="col text-end">
+                      <i class="fa fa-bath"></i> <strong> 3 </strong>
+                    </div>
+                  </div>
+                  
+                  <div class="text-center my-2">
+                    <h5 class="fw-bolder text-primary"> $ 1,000,000,0000 </h5>
+                  </div>
+                  <div class="container text-center">
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- CARD 3-->
+             <div class="col-12  col-lg-3  my-3">
+              <div class="card position-relative m-1">
+                <h5 class="card-header badge rounded-end position-absolute" style="background-color: rgba(250, 163, 1, 0.788);">
+                  For Rent</h5>
+                <img src="img/houses/house3.jpg" height="250" alt="" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    2 bedroom apartment
+                  </h5>
+                  <p class="card-text text-center">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                  </p>
+                  <div class="row pb-1 border-bottom">
+                    <div class="col text-start">
+                      <i class="fa fa-bed"></i><strong> 2 </strong>
+                    </div>
+                    <div class="col text-center">
+                      <i class="fa fa-toilet"></i> <strong> 3 </strong>
+                    </div>
+                    <div class="col text-end">
+                      <i class="fa fa-bath"></i> <strong> 2 </strong>
+                    </div>
+                  </div>
+                  
+                  <div class="text-center my-2">
+                    <h5 class="fw-bolder text-primary"> $ 500,000,0000 </h5>
+                  </div>
+                  <div class="container text-center">
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- CARD 4-->
+             <div class="col-12 col-lg-3  my-3">
+              <div class="card position-relative m-1">
+                <h5 class="card-header badge rounded-end position-absolute" style="background-color: rgba(250, 163, 1, 0.788);">
+                  For Sale</h5>
+                
+                <img src="img/houses/house8.jpg" alt="" height="250" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    4 bedroom apartment
+                  </h5>
+                  <p class="card-text text-center">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                  </p>
+                  <div class="row pb-1 border-bottom">
+                    <div class="col text-start">
+                      <i class="fa fa-bed"></i><strong> 4 </strong>
+                    </div>
+                    <div class="col text-center">
+                      <i class="fa fa-toilet"></i> <strong> 5 </strong>
+                    </div>
+                    <div class="col text-end">
+                      <i class="fa fa-bath"></i> <strong> 4 </strong>
+                    </div>
+                  </div>
+                  
+                  <div class="text-center my-2">
+                    <h5 class="fw-bolder text-primary"> $ 24,000,000,0000 </h5>
+                  </div>
+                  <div class="container text-center">
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>   
+
+            <!-- CARD 5-->
+            <div class="col-12 col-lg-3  my-3">
+             <div class="card position-relative m-1">
+               <h5 class="card-header badge rounded-end position-absolute" style="background-color: rgba(250, 163, 1, 0.788);">
+                 For Sale</h5>
+               
+               <img src="img/houses/house8.jpg" alt="" height="250" class="card-img-top">
+               <div class="card-body">
+                 <h5 class="card-title fw-bold text-center">
+                   4 bedroom apartment
+                 </h5>
+                 <p class="card-text text-center">
+                   Lorem ipsum dolor sit amet consectetur 
+                   adipisicing elit.
+                 </p>
+                 <div class="row pb-1 border-bottom">
+                   <div class="col text-start">
+                     <i class="fa fa-bed"></i><strong> 4 </strong>
+                   </div>
+                   <div class="col text-center">
+                     <i class="fa fa-toilet"></i> <strong> 5 </strong>
+                   </div>
+                   <div class="col text-end">
+                     <i class="fa fa-bath"></i> <strong> 4 </strong>
+                   </div>
+                 </div>
+                 
+                 <div class="text-center my-2">
+                   <h5 class="fw-bolder text-primary"> $ 24,000,000,0000 </h5>
+                 </div>
+                 <div class="container text-center">
+                   <a href="#" class="btn btn-outline-primary">View Details</a>
+                 </div>
+               </div>
+             </div>
+           </div> 
+           
+
+             <!-- CARD 6-->
+             <div class="col-12 col-lg-3 my-3">
+              <div class="card position-relative m-1">
+                <h5 class="card-header badge rounded-end position-absolute" style="background-color: rgba(250, 163, 1, 0.788);">
+                  For Sale</h5>
+                
+                <img src="img/houses/house8.jpg" alt="" height="250" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    4 bedroom apartment
+                  </h5>
+                  <p class="card-text text-center">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                  </p>
+                  <div class="row pb-1 border-bottom">
+                    <div class="col text-start">
+                      <i class="fa fa-bed"></i><strong> 4 </strong>
+                    </div>
+                    <div class="col text-center">
+                      <i class="fa fa-toilet"></i> <strong> 5 </strong>
+                    </div>
+                    <div class="col text-end">
+                      <i class="fa fa-bath"></i> <strong> 4 </strong>
+                    </div>
+                  </div>
+                  
+                  <div class="text-center my-2">
+                    <h5 class="fw-bolder text-primary"> $ 24,000,000,0000 </h5>
+                  </div>
+                  <div class="container text-center">
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            
+
+             <!-- CARD 7-->
+             <div class="col-12 col-lg-3  my-3">
+              <div class="card position-relative m-1">
+                <h5 class="card-header badge rounded-end position-absolute" style="background-color: rgba(250, 163, 1, 0.788);">
+                  For Sale</h5>
+                
+                <img src="img/houses/house8.jpg" alt="" height="250" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    4 bedroom apartment
+                  </h5>
+                  <p class="card-text text-center">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                  </p>
+                  <div class="row pb-1 border-bottom">
+                    <div class="col text-start">
+                      <i class="fa fa-bed"></i><strong> 4 </strong>
+                    </div>
+                    <div class="col text-center">
+                      <i class="fa fa-toilet"></i> <strong> 5 </strong>
+                    </div>
+                    <div class="col text-end">
+                      <i class="fa fa-bath"></i> <strong> 4 </strong>
+                    </div>
+                  </div>
+                  
+                  <div class="text-center my-2">
+                    <h5 class="fw-bolder text-primary"> $ 24,000,000,0000 </h5>
+                  </div>
+                  <div class="container text-center">
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            
+
+             <!-- CARD 8-->
+             <div class="col-12 col-lg-3  my-3">
+              <div class="card position-relative m-1">
+                <h5 class="card-header badge rounded-end position-absolute" style="background-color: rgba(250, 163, 1, 0.788);">
+                  For Sale</h5>
+                
+                <img src="img/houses/house8.jpg" alt="" height="250" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">
+                    4 bedroom apartment
+                  </h5>
+                  <p class="card-text text-center">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                  </p>
+                  <div class="row pb-1 border-bottom">
+                    <div class="col text-start">
+                      <i class="fa fa-bed"></i><strong> 4 </strong>
+                    </div>
+                    <div class="col text-center">
+                      <i class="fa fa-toilet"></i> <strong> 5 </strong>
+                    </div>
+                    <div class="col text-end">
+                      <i class="fa fa-bath"></i> <strong> 4 </strong>
+                    </div>
+                  </div>
+                  
+                  <div class="text-center my-2">
+                    <h5 class="fw-bolder text-primary"> $ 24,000,000,0000 </h5>
+                  </div>
+                  <div class="container text-center">
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="col-4 col-lg-12 m-3">  
+              <a href="#" class="btn btn-outline-primary btn-lg">View More</a>      
+            </div>   
+          </div> 
+      </section>
+
+      
+      
+      <section class="py-5 px-3 my-5 bg-light">
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+              <h2>Change the background</h2>
+              <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+              <button class="btn btn-outline-light" type="button">Example button</button>
+            </div>
+          </div>
+          <div class="col-md-6 mt-2">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Add borders</h2>
+              <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+              <button class="btn btn-outline-secondary" type="button">Example button</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 my-5">
+        <div class="container">
+          <h1 class="text-center pb-5 display-6 mb-4 px-4">
+            Buying a home doesn't have to be a mistery
+          </h1>
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6 px-4 text-secondary">
+              <p class="fw-bold text-dark">
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Unde officia atque 
+                inventore vel eveniet itaque non nemo 
+                commodi maxime? Veritatis cupiditate amet 
+                dolore eum eligendi nisi ex culpa explicabo sequi?
+              </p>
+              <br>              
+              <p class="muted text-dark">
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Unde officia atque 
+                inventore vel eveniet itaque non nemo 
+                commodi maxime? Veritatis cupiditate amet 
+                dolore eum eligendi nisi ex culpa explicabo sequi?
+              </p>
+              <br>              
+              <p class="muted text-dark">
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Unde officia atque 
+                inventore vel eveniet itaque non nemo 
+                commodi maxime? Veritatis cupiditate amet 
+                dolore eum eligendi nisi ex culpa explicabo sequi?
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 px-4">
+              <img src="../img/banner3.jpg" alt="about us" class="w-100 h-100">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="neighborhood bg-light">
+        <div class="card-group my-5 py-5">
+          <div class="card mx-2">
+            <img src="img/houses/house3.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">
+                Learn from Real People
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Cumque sit, itaque, assumenda eum commodi placeat libero 
+                vero nemo voluptate quam ullam reprehenderit delectus qui 
+                quae a eligendi soluta aliquam corrupti?
+              </p>
+            </div>
+          </div>
+
+          <div class="card mx-2">
+            <img src="img/houses/house3.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">
+                Buy with confidence
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Cumque sit, itaque, assumenda eum commodi placeat libero 
+                vero nemo voluptate quam ullam reprehenderit delectus qui 
+                quae a eligendi soluta aliquam corrupti?
+              </p>
+            </div>
+          </div>
+
+          <div class="card mx-2">
+            <img src="img/houses/house3.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">
+                Share your story
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Cumque sit, itaque, assumenda eum commodi placeat libero 
+                vero nemo voluptate quam ullam reprehenderit delectus qui 
+                quae a eligendi soluta aliquam corrupti?
+              </p>
+            </div>
+          </div>
+ 
+        </div>
+      </section>
+
+      <section class="newsletter py-5 my-5">
+        <div class="container w-75 position-relative" style="max-width: 600px;">
+          <h1 class="text-center py-5 display-6 mb-5 px-4 text-light">
+            Sign Up for our newsletter!
+          </h1>
+          <form action="#" class="d-flex mb-5">
+            <input type="search" class="form-control me-2" placeholder="example@gmail.com">
+            <button class="btn btn-primary" type="submit">Join</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="my-5 py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 p-4">
+              <div class="row">
+                <div class="col-12 col-md-2 text-primary">
+                  <i class="fas fa-users fa-2x"></i>
+                </div>
+                <div class="col-12 col-md-10">
+                  <h3>Total Transparency</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Inventore tempore, possimus 
+                    labore modi rerum aliquid ea animi atque, voluptas 
+                    architecto pariatur sint sit commodi sequi. 
+                    Inventore molestiae impedit laboriosam tenetur!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-4">
+              <div class="row">
+                <div class="col-12 col-md-2 text-primary">
+                  <i class="fas fa-wallet fa-2x"></i>
+                </div>
+                <div class="col-12 col-md-10">
+                  <h3>Buy with Confidence</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Inventore tempore, possimus 
+                    labore modi rerum aliquid ea animi atque, voluptas 
+                    architecto pariatur sint sit commodi sequi. 
+                    Inventore molestiae impedit laboriosam tenetur!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 p-4">
+              <div class="row">
+                <div class="col-12 col-md-2 text-primary">
+                  <i class="fas fa-chart-pie fa-2x"></i>
+                </div>
+                <div class="col-12 col-md-10">
+                  <h3>See The Big Picture</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Inventore tempore, possimus 
+                    labore modi rerum aliquid ea animi atque, voluptas 
+                    architecto pariatur sint sit commodi sequi. 
+                    Inventore molestiae impedit laboriosam tenetur!
+                  </p>
+                </div>                
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-4">
+              <div class="row">
+                <div class="col-12 col-md-2 text-primary">
+                  <i class="fas fa-book fa-2x"></i>
+                </div>
+                <div class="col-12 col-md-10">
+                  <h3>Share Your Story</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Inventore tempore, possimus 
+                    labore modi rerum aliquid ea animi atque, voluptas 
+                    architecto pariatur sint sit commodi sequi. 
+                    Inventore molestiae impedit laboriosam tenetur!
+                  </p>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid py-5 bg-gray">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="img/icons/logo_sm.png" height="70"/>
+          <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary" href="#">Random feature</a></li>
+            <li><a class="link-secondary" href="#">Team feature</a></li>
+            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary" href="#">Another one</a></li>
+            <li><a class="link-secondary" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Resource name</a></li>
+            <li><a class="link-secondary" href="#">Resource</a></li>
+            <li><a class="link-secondary" href="#">Another resource</a></li>
+            <li><a class="link-secondary" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Business</a></li>
+            <li><a class="link-secondary" href="#">Education</a></li>
+            <li><a class="link-secondary" href="#">Government</a></li>
+            <li><a class="link-secondary" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Team</a></li>
+            <li><a class="link-secondary" href="#">Locations</a></li>
+            <li><a class="link-secondary" href="#">Privacy</a></li>
+            <li><a class="link-secondary" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <button  onclick="topFunction()" title="Go to top" id="myBtn">Top</button>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/custom.main.js"></script>
+  </body>
+</html>
