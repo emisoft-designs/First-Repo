@@ -28,8 +28,16 @@ header::before, .newsletter::before{
 }
 #navbar{
     transition: 500ms;
+    box-shadow: none;
 }
 
+.navbtn{
+    color: rgb(235, 235, 235);
+}
+
+.navbtn:hover{
+    color: rgba(255,255,255);
+}
 .bg-gray{
     background-color: #ddd;
 }
